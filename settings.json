@@ -1,0 +1,174 @@
+{
+    "workbench.colorTheme": "One Dark Pro",
+    "terminal.integrated.fontSize": 14,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.tabSize": 4,
+    "editor.fontSize": 14,
+    "editor.lineHeight": 22,
+    "editor.fontFamily": "MesloLGS NF",
+    "editor.fontLigatures": true,
+    "better-comments.multilineComments": true,
+    "explorer.compactFolders": false,
+    "editor.renderLineHighlight": "gutter",
+    "workbench.editor.labelFormat": "short",
+    "extensions.ignoreRecommendations": true,
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "typescript.updateImportsOnFileMove.enabled": "never",
+    "breadcrumbs.enabled": true,
+    "editor.parameterHints.enabled": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "editor.rulers": [80,120],
+    "yaml.schemas": {
+        "file:///toc.schema.json": "/toc\\.yml/i"
+    },
+    "sync.gist": "416ca414d8a0a6fab1216b2e9ffb75ce",
+    "editor.renderIndentGuides": false,
+    "json.maxItemsComputed": 50000,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "emmet.syntaxProfiles": {"javascript": "jsx"},
+    "emmet.includeLanguages": {"javascript": "javascriptreact"},
+    "[javascript]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true,
+        }
+    },
+    "[javascriptreact]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true,
+        }
+    },
+    "[typescript]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true,
+        }
+    },
+    "[typescriptreact]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true,
+        }
+    },
+    "workbench.editor.enablePreview": true,
+
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true, 
+    "python.linting.pycodestyleEnabled": true,
+    "python.linting.pylintUseMinimalCheckers": false,
+    
+    "workbench.activityBar.visible": true,
+    "yaml.customTags": [
+        "!And",
+        "!And sequence",
+        "!If",
+        "!If sequence",
+        "!Not",
+        "!Not sequence",
+        "!Equals",
+        "!Equals sequence",
+        "!Or",
+        "!Or sequence",
+        "!FindInMap",
+        "!FindInMap sequence",
+        "!Base64",
+        "!Join",
+        "!Join sequence",
+        "!Cidr",
+        "!Ref",
+        "!Sub",
+        "!Sub sequence",
+        "!GetAtt",
+        "!GetAZs",
+        "!ImportValue",
+        "!ImportValue sequence",
+        "!Select",
+        "!Select sequence",
+        "!Split",
+        "!Split sequence"
+    ],
+    "yaml.validate": false,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "go.toolsManagement.autoUpdate": true,
+    "redhat.telemetry.enabled": true,
+    "workbench.editor.untitled.hint": "hidden",
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "vs-kubernetes": {
+        "vscode-kubernetes.helm-path.mac": "/Users/luiza.des.ferreira/.vs-kubernetes/tools/helm/darwin-amd64/helm",
+        "vscode-kubernetes.kubectl-path.mac": "/Users/luiza.des.ferreira/.vs-kubernetes/tools/kubectl/kubectl",
+        "vscode-kubernetes.minikube-path.mac": "/Users/luiza.des.ferreira/.vs-kubernetes/tools/minikube/darwin-amd64/minikube"
+    },
+    "aws.profile": "profile:ifood-corp-sandbox",
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "kite.showWelcomeNotificationOnStartup": false,
+    "cSpell.userWords": [
+        "accountid",
+        "actioner",
+        "auxiliar",
+        "boto",
+        "botocore",
+        "dbname",
+        "finops",
+        "gorm",
+        "ifood",
+        "kubernetes",
+        "luiz",
+        "mrkdwn",
+        "pydantic",
+        "pylint",
+        "QUERYTOMPERO",
+        "slugparam",
+        "tbody",
+        "thead",
+        "tomatic",
+        "tompero",
+        "unblended"
+    ],
+    "security.workspace.trust.untrustedFiles": "open",
+    "cSpell.ignoreWords": [
+        "Apostilamento",
+        "Cartório",
+        "Feira",
+        "Portador",
+        "SEDEX",
+        "Sedex",
+        "Tradução",
+        "portador",
+        "psycopg"
+    ],
+    "go.testOnSave": true,
+    "go.lintOnSave": "package",
+    "go.formatTool": "goimports",
+    "go.testFlags": [
+        "-v"
+    ],
+    "go.autocompleteUnimportedPackages": true,
+    "[go]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+        "editor.suggest.snippetsPreventQuickSuggestions": true
+    },
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": true,
+        "markdown": false
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "bracket-pair-colorizer-2.depreciation-notice": false,
+    "diffEditor.ignoreTrimWhitespace": false
+}
