@@ -28,7 +28,8 @@ plugins=(git
     command-not-found
     aws
     battery
-    asdf)
+    asdf
+    zsh-saml2aws)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -40,3 +41,6 @@ source $ZSH/oh-my-zsh.sh
 # Aliases
 alias myip="curl http://ipecho.net/plain; echo"
 alias dev="cd ~/Developments"
+alias staging-login="saml2aws login --skip-prompt --idp-account=pd-staging"
+alias staging-tr-login="saml2aws login --skip-prompt --idp-account=pd-staging-tr"
+alias testing-login="saml2aws login --skip-prompt --idp-account=pd-testing"
